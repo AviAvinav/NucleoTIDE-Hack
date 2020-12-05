@@ -28,10 +28,12 @@ label.logo {
 button {
     background: none;
     color: #ccc;
-    width: 240px;
+    width: 200px;
     background: #b10d0d;
     height: 80px;
-    border: 1px solid #FFFFFF;
-    font-size : 18px;
+    border: 2px solid #FFFFFF;
+    font-family: 'Arial', Arial;
+    font-size : 25px;
+    padding: 3px;
     border-radius: 4px;
 }
