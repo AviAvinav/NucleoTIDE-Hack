@@ -4,8 +4,9 @@ from math import *
 
 eel.init('web')
 
-def function_name1():
-  pass
+def mol_conv(material_mass, molar_mass):
+  num_mole =(material_mass / molar_mass)
+  return num_mole
 
 def function_name2():
   pass
