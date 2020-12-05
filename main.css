@@ -24,3 +24,14 @@ label.logo {
     padding: 0 100px;
     font-weight: bold;
 }
+
+button {
+    background: none;
+    color: #ccc;
+    width: 240px;
+    background: #b10d0d;
+    height: 80px;
+    border: 1px solid #FFFFFF;
+    font-size : 18px;
+    border-radius: 4px;
+}
