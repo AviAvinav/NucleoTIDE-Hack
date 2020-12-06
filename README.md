@@ -9,7 +9,7 @@ This is our 2020 Nucleotide hackathon project! It is a ________________________.
 * [Contributors](#contributors)
 
 ## Dependencies
-[Python 3.0. or later](https://www.python.org/downloads/)
+[Python 3.0 or later](https://www.python.org/downloads/)
 
 ## Installation
 * Make sure all the dependencies are installed
