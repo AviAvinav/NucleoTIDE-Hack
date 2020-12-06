@@ -37,3 +37,10 @@ button {
     padding: 3px;
     border-radius: 4px;
 }
+
+input {
+    height: 35px;
+    width: 150px;
+    font-size: 20px;
+    color: #88ffd7
+}
