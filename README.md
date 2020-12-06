@@ -23,9 +23,9 @@ This is our 2020 Nucleotide hackathon project! It is a ________________________.
 * ___________________
 
 ## Contributors
-| <a href="https://github.com/sagarpatel211" target="_blank">**Sagar Patel**</a> | <a href="http://github.com/saurinpatel20" target="_blank">**Saurin Patel**</a> |
+| <a href="https://github.com/AviAvinav" target="_blank">**Avi Avinav**</a> | <a href="https://github.com/ChiedzaDz" target="_blank">**ChiedzaDz**</a> |
 | :---: |:---:|
-| [![Avi Avinav](https://avatars0.githubusercontent.com/u/54372449?s=200)](https://github.com/AviAvinav)    | [![ChiedzaDz](https://avatars0.githubusercontent.com/u/75538810?s=200)](https://github.com/ChiedzaDz) |
+| [![Avi Avinav](https://avatars0.githubusercontent.com/u/54372449?s=200)](https://github.com/AviAvinav)    | [![ChiedzaDz](https://www.google.com/url?sa=i&url=https%3A%2F%2Ffccvienna.github.io%2F&psig=AOvVaw3cRrZxYO755Nygl02rlbSY&ust=1607327185966000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCPDIj8PuuO0CFQAAAAAdAAAAABAD)](https://github.com/ChiedzaDz) |
 | <a href="https://github.com/AviAvinav" target="_blank">`github.com/AviAvinav`</a> | <a href="http://github.com/ChiedzaDz" target="_blank">`github.com/ChiedzaDz`</a> |
 
 
