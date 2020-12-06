@@ -87,15 +87,15 @@ a {
 #inputs h3 {
   font-size: 50px;
   font-family: monospace;
-  color: #bd5333;
-  margin: 30px;
+  color: white;
+  margin: 25px;
   letter-spacing: 3px;
 }
 
 input {
-  margin: 20px;
+  margin: 30px;
   padding: 12px 20px;
-  background-color: #b03712;
+  background-color: #88ffd7;
   color: black;
   outline: none;
   border-radius: 20px;
