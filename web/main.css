@@ -11,6 +11,8 @@ body {
     background-image: url("background.png")
 }
 
+body.per-table{background-image:url(black.jpg);}
+
 nav {
     background: #0082e6;
     height: 80px;
