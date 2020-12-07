@@ -8,8 +8,8 @@ Our 2020 Nucleotide hackathon project is a stoichiometry calculator with 5 diffe
 * [Contributors](#contributors)
 
 ## Dependencies
-[Python 3.0 or later](https://www.python.org/downloads/)
-[Python Eel Library](https://pypi.org/project/Eel/)
+* [Python 3.0 or later](https://www.python.org/downloads/) 
+* [Python Eel Library](https://pypi.org/project/Eel/)
 
 ## Installation
 * Make sure all the dependencies are installed
