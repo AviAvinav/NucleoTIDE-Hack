@@ -9,7 +9,9 @@ Our 2020 NucleoTIDE hackathon project is a stoichiometry calculator with 5 diffe
 
 ## Dependencies
 * [Python 3.0 or later](https://www.python.org/downloads/) 
-* [Python Eel Library](https://pypi.org/project/Eel/)
+* [Python Eel (library)](https://pypi.org/project/Eel/)
+* [Python Chempy (package)](https://pypi.org/project/chempy/)
+
 
 ## Installation
 * Make sure all the dependencies are installed
