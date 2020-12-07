@@ -45,11 +45,11 @@
 		}
 
 		function results() {
-			if ((vol=null) && (num_mol=null)) {
-				concentration();
-			}
-			else if ((material_mass=null) && (molar_mass=null)) {
+			if ((vol!=null) && (num_mol!=null)) {
 				conc_mols_vol();
+			}
+			else if ((material_mass!=null) && (molar_mass!=null) && (vol!=null)) {
+				concentration();
 			}
 			else {
 				concentration();
