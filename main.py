@@ -1,6 +1,8 @@
 import eel
-import chempy  #module we can use for our project
+import chempy
+from chempy import balance_stoichiometry
 from math import *
+from chempy import Substance
 
 eel.init('web')
 
@@ -50,10 +52,15 @@ def percent_composition(element_mass, total_mass):
   percentage = element_mass/total_mass
   return percentage
 
-def equilibrium_constant(num_reactants, num_products):
-  pass
-
-
+def equation_balance(equation):
+  #CO2 + H2O → C6H12O6 + O2
+  react_count = 0
+  before_react, before_product = equation.split('=')
+  reactants = equation.split('+')
+  products = equation.split('+')
+  final_react, final product = balance_stoichiometry(reactants, products))
+  return final_react, final product
+  
 eel.start('index.html')
 
 #remember to put index.html and main.css inside of a web folder before using
