@@ -36,5 +36,5 @@ Our 2020 Nucleotide hackathon project is a stoichiometry calculator with 5 diffe
 
 | <a href="https://github.com/sagarpatel211" target="_blank">**Sagar Patel**</a> | <a href="http://github.com/saurinpatel20" target="_blank">**Saurin Patel**</a> |
 | :---: |:---:|
-| [![Sagar Patel](https://avatars1.githubusercontent.com/u/34544263?s=200)](https://github.com/sagarpatel211)    | [![Saurin Patel](https://avatars3.githubusercontent.com/u/62221622?s=200)](http://github.com/saurinpatel20) |
+| [![Sagar Patel](https://avatars1.githubusercontent.com/u/34544263?s=190)](https://github.com/sagarpatel211)    | [![Saurin Patel](https://avatars3.githubusercontent.com/u/62221622?s=190)](http://github.com/saurinpatel20) |
 | <a href="https://github.com/sagarpatel211" target="_blank">`github.com/sagarpatel211`</a> | <a href="http://github.com/saurinpatel20" target="_blank">`github.com/saurinpatel20`</a> |
