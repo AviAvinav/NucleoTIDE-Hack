@@ -30,7 +30,7 @@ Our 2020 Nucleotide hackathon project is a stoichiometry calculator with 5 diffe
 ## Contributors
 | <a href="https://github.com/AviAvinav" target="_blank">**Avi Avinav**</a> | <a href="https://github.com/ChiedzaDz" target="_blank">**ChiedzaDz**</a> |
 | :---: |:---:|
-| [![Avi Avinav](https://avatars0.githubusercontent.com/u/54372449?s=150)](https://github.com/AviAvinav)    | [![ChiedzaDz](https://avatars0.githubusercontent.com/u/28731097?s=150&u=4372ac0499f5e1e4513c100a6a4a030a69fffa42&v=4)](https://github.com/ChiedzaDz) |
+| [![Avi Avinav](https://avatars0.githubusercontent.com/u/54372449?s=180)](https://github.com/AviAvinav)    | [![ChiedzaDz](https://avatars0.githubusercontent.com/u/28731097?s=180&u=4372ac0499f5e1e4513c100a6a4a030a69fffa42&v=4)](https://github.com/ChiedzaDz) |
 | <a href="https://github.com/AviAvinav" target="_blank">`github.com/AviAvinav`</a> | <a href="http://github.com/ChiedzaDz" target="_blank">`github.com/ChiedzaDz`</a> |
 
 
