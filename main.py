@@ -51,15 +51,6 @@ def rate_of_reaction_vol(delta_volume, delta_time):
 def percent_composition(element_mass, total_mass):
   percentage = element_mass/total_mass
   return percentage
-
-def equation_balance(equation):
-  #CO2 + H2O → C6H12O6 + O2
-  react_count = 0
-  before_react, before_product = equation.split('=')
-  reactants = equation.split('+')
-  products = equation.split('+')
-  final_react, final product = balance_stoichiometry(reactants, products))
-  return final_react, final product
   
 eel.start('index.html')
 
