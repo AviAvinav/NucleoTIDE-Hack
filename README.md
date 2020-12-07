@@ -1,5 +1,5 @@
 # NucleoTIDE-Hack
-Our 2020 Nucleotide hackathon project is a stoichiometry calculator with 5 different calculators! All of them are listed below in features.
+Our 2020 NucleoTIDE hackathon project is a stoichiometry calculator with 5 different calculators! All of them are listed below in features.
 
 ## Table of Contents
 * [Dependencies](#dependencies)
@@ -22,7 +22,7 @@ Our 2020 Nucleotide hackathon project is a stoichiometry calculator with 5 diffe
 ## Features
 * Includes a mole calculator
 * Includes a solution concentration calculator
-* Includes a percent composition calculator
+* Includes a percentage composition calculator
 * Includes a titration calculator
 * Includes a rate of reaction calculator
 * Includes a periodic table 
