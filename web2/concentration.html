@@ -5,17 +5,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project</title>
     <link rel="stylesheet" href="main.css">
+    <script type="text/javascript" src="/eel.js"></script>
 </head>
 <body>
 	<h2>Concentration</h2>
 	<div id="inputs">
-		<input placeholder="mole amount">
-		<input placeholder="volume">
-		<input placeholder="mass">
-		<input placeholder="molar mass">
-		<output name="result">Answer</output>
+		<input id="num_mol" placeholder="mole amount">
+		<input id="vol" placeholder="volume">
+		<input id="material_mass" placeholder="material mass">
+		<input id="molar_mass" placeholder="molar mass">
+		<output id="result" name="result">Answer</output>
 	</div>
-	<button>Calculate Concentration</button>
-        <a href="index.html"><button>Back</button></a>
+	<button id="btn">Calculate Concentration</button>
+	<a href="index.html"><button>Back</button></a>
+	
+	<script defer type="text/javascript">
+		num_mol = document.getElementById("num_mol").value;
+		vol = document.getElementById("vol").value;
+		material_mass = document.getElementById("material_mass").value;
+		molar_mass = document.getElementById("molar_mass").value;
+		result = document.getElementById("result");
+
+		btn.onclick = function() {results()}
+
+		function concentration() {	
+			material_mass = document.getElementById("material_mass").value;
+			molar_mass = document.getElementById("molar_mass").value;
+			vol = document.getElementById("vol").value;
+			num_mol = material_mass/molar_mass
+			percentag = ((material_mass/molar_mass)/vol) * 100
+			result.innerHTML = "Answer: " + percentag + "%";
+		}
+
+		function conc_mols_vol() {	
+			vol = document.getElementById("vol").value;
+			num_mol = document.getElementById("num_mol").value;
+			percentag = (num_mol/vol) * 100
+			result.innerHTML = "Answer: " + percentag + "%";
+		}
+
+		function results() {
+			if ((vol=null) && (num_mol=null)) {
+				concentration();
+			}
+			else if ((material_mass=null) && (molar_mass=null)) {
+				conc_mols_vol();
+			}
+			else {
+				concentration();
+			}
+		}
+
+	</script>
 </body>
 </html>

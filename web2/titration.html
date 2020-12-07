@@ -5,18 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project</title>
     <link rel="stylesheet" href="main.css">
+    <script type="text/javascript" src="/eel.js"></script>
 </head>
 <body>
-	<h2>Titration</h2>
-	<div id="inputs">
-		<input placeholder="mole amount of solution A">
-		<input placeholder="volume of soultion A">
-		<input placeholder="concentration of solution A">
-		<input placeholder="mole amount of solution B">
-		<input placeholder="volume of solution B">
-		<output name="result">Answer</output>
-	</div>
-  <button>Calculate Solution B</button>
+    <h2>Titration</h2>
+    <div id="inputs">
+        <input id="mols_A" placeholder="mole amount of solution A">
+        <input id="volume_A" placeholder="volume of soultion A">
+        <input id="concentration_A" placeholder="concentration of solution A">
+        <input id="mols_B" placeholder="mole amount of solution B">
+        <input id="volume_B" placeholder="volume of solution B">
+        <output id="result" name="result">Answer</output>
+    </div>
+  <button id="btn">Calculate Solution B</button>
   <a href="index.html"><button>Back</button></a>
+
+  <script defer type="text/javascript">
+    concentration_A = document.getElementById("concentration_A").value;
+    volume_A = document.getElementById("volume_A").value; 
+    mols_A = document.getElementById("mols_A").value;
+    volume_B = document.getElementById("volume_B").value; 
+    mols_B = document.getElementById("mols_B").value;
+	result = document.getElementById("result");
+
+    btn.onclick = function() {results()}
+
+    function titration_conc_B() {
+        concentration_A = document.getElementById("concentration_A").value;
+        volume_A = document.getElementById("volume_A").value; 
+        mols_A = document.getElementById("mols_A").value;
+        volume_B = document.getElementById("volume_B").value; 
+        mols_B = document.getElementById("mols_B").value;
+        concentration_B = (concentration_A * volume_A * mols_B) / (volume_B * mols_A)
+        result.innerHTML = "Answer: " + concentration_B + " mols/Liter"
+    }
+
+    function results() {
+        titration_conc_B()
+    }
+    </script>
+
 </body>
 </html>
