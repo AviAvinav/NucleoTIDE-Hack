@@ -79,7 +79,7 @@ a {
 #inputs {
   display: flex;
   flex-direction: column;
-  width: 700px;
+  width: 900px;
   color: white;
   align-items: center;
   justify-content: center;
@@ -111,7 +111,7 @@ input {
 #outputs {
   display: flex;
   flex-direction: column;
-  width: 700px;
+  width: 900px;
   color: black;
   align-items: center;
   justify-content: center;
