@@ -62,6 +62,11 @@ h2 {
   margin-top: 0px;
 }
 
+::placeholder { 
+  color: white;
+  opacity: 1; 
+}
+
 button {
     width: 300px;
     background: #3fb10a;
